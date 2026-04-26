@@ -1,0 +1,9 @@
+batch_size: 8
+langsmith_api_key: YOUR_LANGSMITH_API_KEY
+langsmith_project: banking-intent-unsloth
+load_in_4bit: true
+max_new_tokens: 512
+max_new_tokens_finetuned: 32
+max_seq_length: 2048
+model_name: unsloth/Qwen3-4B-unsloth-bnb-4bit
+model_path: c:\Users\VINH\OneDrive - VNU-HCMUS\Attachments\Desktop\YEAR 3\ƯDNLP\lab_2\banking-intent-unsloth\outputs\checkpoint

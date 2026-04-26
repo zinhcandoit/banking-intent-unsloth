@@ -1,0 +1,25 @@
+# Secrets — never commit
+.env
+configs/inference.yaml.local
+
+# Model weights & checkpoints
+outputs/
+scripts/outputs/
+*.safetensors
+*.pt
+*.bin
+
+# Unsloth cache
+unsloth_compiled_cache/
+# Data
+sample_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Misc
+.DS_Store
+*.log

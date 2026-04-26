@@ -1,0 +1,20 @@
+batch_size: 2
+data_path: ../sample_data/train.csv
+gradient_accumulation_steps: 4
+hub_model_id: TQZinh/banking-intent-unsloth
+hub_push_every_n_steps: 250
+learning_rate: 0.0002
+load_in_4bit: true
+lora_alpha: 32
+lora_dropout: 0.05
+lora_r: 16
+lr_scheduler_type: cosine
+max_seq_length: 2048
+model_name: unsloth/Qwen3-4B-unsloth-bnb-4bit
+num_train_epochs: 1
+optimizer: adamw_8bit
+output_dir: c:\Users\VINH\OneDrive - VNU-HCMUS\Attachments\Desktop\YEAR 3\ƯDNLP\lab_2\banking-intent-unsloth\outputs\checkpoint
+save_steps: 100
+save_total_limit: 3
+seed: 3407
+weight_decay: 0.01
