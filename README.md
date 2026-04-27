@@ -103,7 +103,9 @@ The `IntentClassification` class in `scripts/inference.py` supports 2 modes:
 | `zero_shot` | Base Qwen3-4B | No examples in prompt |
 
 **Usage example:**
-
+- Download finetuned model from HuggingFace - TQZinh/banking-intent-unsloth and change the `model_path` in `configs/inference.yaml`
+- Run the script likes:
+1. 
 ```python
 from scripts.inference import IntentClassification
 
@@ -112,7 +114,7 @@ clf = IntentClassification("configs/inference.yaml")
 label = clf("I lost my credit card, how do I order a replacement?")
 print(label)  # e.g. "lost_or_stolen_card"
 ```
-
+2. 
 ```bash
 sh inference.sh
 # or
