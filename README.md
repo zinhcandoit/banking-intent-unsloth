@@ -6,7 +6,7 @@ Supports three inference modes: **zero-shot** and **fine-tuned**.
 
 ## Video Demonstration
 
-[Video Demo](https://drive.google.com/file/d/18vQH2IbVTlGWPi1hxII4-61F-qfSh0YQ/view?usp=sharing)
+[Video Demo](https://drive.google.com/file/d/1buSp8z_0vIHa7nn9hHvMrj1kaPjlGWy7/view?usp=sharing)
 
 ---
 
