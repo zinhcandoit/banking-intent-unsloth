@@ -118,7 +118,8 @@ print(label)  # e.g. "lost_or_stolen_card"
 ```bash
 sh inference.sh
 # or
-cd scripts && python inference.py
+cd scripts
+python inference.py
 ```
 
 Expected output:
